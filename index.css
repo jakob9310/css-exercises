@@ -5,3 +5,19 @@ div {
 .para1 {
     font-size: 30px;
 }
+
+a[href*="wiki"] {
+    color: green;
+}
+
+a[href*="w3"] {
+    color: red;
+}
+
+a[href*="game"] {
+    color: deeppink;
+}
+
+a[href*="page"] {
+    color: yellow;
+}
