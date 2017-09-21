@@ -1,53 +1,10 @@
-h1 {
-    background-color: grey;
+
+article:before {
+    content: url("hill.jpg");
+    
 }
 
-body p {
-    background-color: red;
+p:first-child:first-line {
+    color: blue;
 }
 
-#paragraph > p {
-    background-color: green;
-}
-
-#paragraph ~ p {
-    background-color: yellow;
-}
-
-#paragraph + p {
-    background-color: pink;
-}
-
-div {
-    font-size: 25px;
-}
-
-.para1 {
-    font-size: 30px;
-}
-
-a[href*="wiki"] {
-    color: green;
-}
-
-a[href*="w3"] {
-    color: red;
-}
-
-a[href*="game"] {
-    color: deeppink;
-}
-
-a[href*="page"] {
-    color: yellow;
-}
-
-ul {
-    list-style-type: none;
-    text-transform: lowercase;
-
-}
-
-a {
-    text-decoration: none;
-}
