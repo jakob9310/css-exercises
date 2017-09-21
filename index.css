@@ -1,20 +1,30 @@
-section {
-    font-size: 16px !important;
-    width: 80%;
-    position: relative;
-    background: #ba89b6;
-    color: #fff;
-    text-align: center;
-    padding: 1em 2em;
-    margin: 2em auto 3em;
+header {
+    background-color: mediumvioletred;
+    height: 50px;
 }
-article {
-    visibility: hidden;
-    background-color: #f15b2a;
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    padding: 1em 2em;
 
+nav {
+    background-color: seagreen;
+    height: 50px;
 }
+
+main {
+    float:left;
+    background-color: mediumpurple;
+    width: 70%;
+    height: 400px;
+}
+
+aside {
+    margin-left: auto;
+    background-color: deepskyblue;
+    width: 30%;
+    height: 400px;
+}
+
+footer {
+    clear: both;
+    background-color: orangered;
+    height: 30px;
+}
+
